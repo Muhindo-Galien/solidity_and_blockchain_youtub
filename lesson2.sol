@@ -6,7 +6,8 @@ import "./SimpleStorage.sol"; //here we're importaing the SimpleStorage contract
 
 pragma solidity ^0.6.0;
 
-contract StorageFactory{
+// is SimpleStorage = inherit the contract SimpleStorage with all its functions
+contract StorageFactory is SimpleStorage{
 
     // creating an array to store the list of contract deployed
     SimpleStorage[] public simpleStorageArray;
