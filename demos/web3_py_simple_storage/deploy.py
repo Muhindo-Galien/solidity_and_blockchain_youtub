@@ -40,7 +40,7 @@ abi = json.loads(
 )["output"]["abi"]
 
 
-# For connecting to ganache
+# For connecting to infura
 w3 = Web3(
     Web3.HTTPProvider("https://rinkeby.infura.io/v3/da2656db6a944040b856538974ffc39d")
 )
