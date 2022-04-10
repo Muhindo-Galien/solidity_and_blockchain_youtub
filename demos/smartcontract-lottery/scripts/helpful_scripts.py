@@ -3,10 +3,10 @@ from brownie import (
     network,
     config,
     MockV3Aggregator,
-    # VRFCoordinatorMock,
-    # LinkToken,
-    # Contract,
-    # interface,
+    VRFCoordinatorMock,
+    LinkToken,
+    Contract,
+    interface,
 )
 
 FORKED_LOCAL_ENVIRONMENTS = ["mainnet-fork", "mainnet-fork-dev"]
